@@ -74,13 +74,62 @@ Brainstorming
 | View 3| Total Scrapped Quantity, Avg Production Time (days), Defect Rate(%)                | Quality Status by Order Quality, Scrap Trend by Date, Available Quantity and Scrapped Quantity by Product Name, Total Scrapped Quantity by ScrapReason | Available Quantity and Scrapped Quantity by Product Name                |
 ## III. Dashboard
 ### Data modeling
-![Alt text](https://imgur.com/a/L6pDw93)
+![Image](https://github.com/user-attachments/assets/578094b5-341e-4af6-a2be-4c976074173c)
 
 ### View 1: Customer Segmentation Overview  
-![image](https://imgur.com/a/L6pDw93)
+![Image](https://github.com/user-attachments/assets/7f552721-227a-43de-bd02-ce34e9f7a26b)
 
 ### View 2: Monthly Segment Analysis
-![image](https://github.com/user-attachments/assets/49b999af-f0ee-4139-99f9-09bc76f4d99d)
+![Image](https://github.com/user-attachments/assets/41e229bb-56f2-41a6-a1de-79dcfd9e8cd0)
 
-## IV. Insights
-### Geographic Distribution:
+### View 3: Manufacturing Quality analysis
+![Image](https://github.com/user-attachments/assets/36277d00-1fbd-49d6-b7bd-715075696a07)
+## IV. Insights and recommendations
+### Overview Analysis
+#### Insights:
+- **Completion Rate:** The on-time completion rate is **68.6%**, while **31.4%** of tasks are delayed. This indicates a significant portion of orders need improvement in processing time.
+- **Total Produced:** A total production of **4.5 million products** shows stable manufacturing capacity.
+- **Total Orders by Subcategory:**  **Wheels and Road Frames** have the highest order volume, with **8.2K** and **6.7K** respectively, indicating high demand for these categories.
+- **Product Performance:** Some products, such as **Mountain-100 Black** and **Mountain-500 Black**, have low production costs but could be further optimized by reducing the average production time (currently ranging from **16.9 to 17.8 days**).
+#### Recommendations:
+- **Improve Completion Rate:** Identify specific causes of delays to enhance production time.
+- **Prioritize High-Demand Categories:** Focus on increasing production capacity for **Handlebars** and **Wheels** and consider investing in additional production lines for these items.
+- **Reduce Average Production Time:** Evaluate and optimize the production process for products with low costs but long production times.
+### Inventory Analysis
+#### Insights:
+- **Total Inventory**: The current inventory is **339.74K**, with **91.11% being safe products** and **8.89% classified as unsafe products**.
+- **Unsafe Products**: There are **95 unsafe products** that require attention to improve quality.
+- **Inventory Trend Over Time**: Inventory levels fluctuate significantly, peaking at **48K in December 2014**.
+- **Inventory Distribution by Category**: Most inventory is concentrated in **"Components" (49K)**, while categories like **Clothing (-6K)** show negative inventory levels, possibly due to stockouts or management errors.
+- **Safe Stocked Products**: Items such as **Adjustable Race** and **BB Ball Bearing** have inventory levels well above the safety threshold.
+#### Recommendations:
+*a. Reduce Unsafe Products:*
+- Identify and address unsafe products in the inventory immediately.
+- Analyze the root causes of products becoming unsafe and implement preventive measures.
+
+*b. Adjust Inventory for the Clothing Category:*
+- Ensure no negative inventory levels by improving demand forecasting and procurement planning.
+- Reassess the actual demand for the Clothing category to avoid overproduction or stock shortages.
+
+*c. Optimize Safe Stocked Products:*
+- Redistribute overstocked products (e.g., BB Ball Bearing) to regions or units with higher demand.
+### Manufacturing Quality Analysis
+#### Insights:
+- **Total Scrapped Quantity**: A total of **10.65K products** were scrapped, with **8.87% rejected** due to quality issues.
+- **Scrap Trend Over Time**: The number of scrapped products peaked in 2013 (2.2K) and then declined in 2014.
+- **Top Scrap Reasons**: The leading causes of scrapping include **"Paint process failed" (1271)**, **"Trim length too long" (981)**, and **"Thermoform temperature issues" (876)**.
+- **Defect Rate and Average Production Time**: The defect rate is only **0.24%**, with an average production time of **13.24 days**.
+- **Inventory and Scrap Distribution**: Certain products, such as BB Ball Bearing, have high inventory levels but also significant scrap quantities.
+#### Recommendations:
+*a. Address Common Scrap Reasons:*
+- Implement stricter control processes for stages like **painting** and **trimming length**.
+- Train employees and monitor temperature standards during thermoforming to reduce thermal issues.
+
+*b. Improve Rejection Rate:*
+- Conduct quality checks at critical production stages to detect errors earlier.
+- Increase automation in the production process to reduce human-related errors.
+### Overall Recommendations
+- **Optimize Supply Chain:** Combine actual inventory data with demand trend forecasts to reduce costs and improve service levels.
+- **Implement Automation Technology:** Invest in automated production systems to minimize production times and reduce errors related to manual.
+- **Allocate Resources Effectively:** Increase resources for high-profit and high-demand categories like **Handlebars** and **Wheels**.
+- **Enhance Quality Control Processes:** Strengthen inspection steps prone to errors, such as **paint processes** and **dimension accuracy**, to improve the order acceptance rate.
