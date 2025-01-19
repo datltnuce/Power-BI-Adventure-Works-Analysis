@@ -1,8 +1,8 @@
 # Power BI Adventure Works Analysis
 
-**[Power BI] Adventure Works Analysis**
+## [Power BI] Adventure Works Analysis
 
-**I. Introduction**
+## I. Introduction
 The Production Department at AdventureWorks manages the manufacturing process, starting from receiving raw materials to producing and storing finished goods across multiple locations for distribution. Production timelines may not always match plans, and quality checks are conducted to remove defective items, ensuring only high-quality products are stored and sold. An **Operation Dashboard** will offer the Production Director a clear, visual overview of key metrics and processes, enabling more informed decision-making and streamlined operations.
 
 **Dataset**
