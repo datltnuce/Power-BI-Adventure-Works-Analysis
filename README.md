@@ -17,9 +17,9 @@ Dataset access:
 - Navigate to the BigQuery console and select your newly created project.
 - In the navigation panel, select "Add Data" and then "Star a project by name".
 
-**II. Design Thinking Steps**
+## II. Design Thinking Steps
 
-**Step 1 - Empathize**
+### Step 1 - Empathize
 | 5W1H                                                          |                                           |
 | ------------------------------------------------------------------ |--------------------------------------------- |
 | Who will be viewing this Dashboard?                                | Product manager<br> |
