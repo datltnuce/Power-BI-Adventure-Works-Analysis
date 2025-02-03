@@ -3,7 +3,13 @@
 ## [Power BI] Adventure Works Analysis
 
 ## I. Introduction
-The Production Department at AdventureWorks manages the manufacturing process, starting from receiving raw materials to producing and storing finished goods across multiple locations for distribution. Production timelines may not always match plans, and quality checks are conducted to remove defective items, ensuring only high-quality products are stored and sold. An **Operation Dashboard** will offer the Production Director a clear, visual overview of key metrics and processes, enabling more informed decision-making and streamlined operations.
+The Production Department at AdventureWorks manages the manufacturing process, starting from receiving raw materials to producing and storing finished goods across multiple locations for distribution. Production timelines may not always match plans, and quality checks are conducted to remove defective items, ensuring only high-quality products are stored and sold. An **Operation Dashboard** will offer the Product Manager a clear, visual overview of key metrics and processes, enabling more informed decision-making and streamlined operations.
+
+**Overall Recommendations**
+- **Optimize Supply Chain:** Combine actual inventory data with demand trend forecasts to reduce costs and improve service levels.
+- **Implement Automation Technology:** Invest in automated production systems to minimize production times and reduce errors related to manual.
+- **Allocate Resources Effectively:** Increase resources for high-profit and high-demand categories like **Handlebars** and **Wheels**.
+- **Enhance Quality Control Processes:** Strengthen inspection steps prone to errors, such as **paint processes** and **dimension accuracy**, to improve the order acceptance rate.
 
 **Dataset**
 
@@ -79,13 +85,6 @@ Brainstorming
 ### View 1: Customer Segmentation Overview  
 ![Image](https://github.com/user-attachments/assets/7f552721-227a-43de-bd02-ce34e9f7a26b)
 
-### View 2: Monthly Segment Analysis
-![Image](https://github.com/user-attachments/assets/41e229bb-56f2-41a6-a1de-79dcfd9e8cd0)
-
-### View 3: Manufacturing Quality analysis
-![Image](https://github.com/user-attachments/assets/36277d00-1fbd-49d6-b7bd-715075696a07)
-## IV. Insights and recommendations
-### Overview Analysis
 #### Insights:
 - **Completion Rate:** The on-time completion rate is **68.6%**, while **31.4%** of tasks are delayed. This indicates a significant portion of orders need improvement in processing time.
 - **Total Produced:** A total production of **4.5 million products** shows stable manufacturing capacity.
@@ -95,7 +94,9 @@ Brainstorming
 - **Improve Completion Rate:** Identify specific causes of delays to enhance production time.
 - **Prioritize High-Demand Categories:** Focus on increasing production capacity for **Handlebars** and **Wheels** and consider investing in additional production lines for these items.
 - **Reduce Average Production Time:** Evaluate and optimize the production process for products with low costs but long production times.
-### Inventory Analysis
+### View 2: Monthly Segment Analysis
+![Image](https://github.com/user-attachments/assets/41e229bb-56f2-41a6-a1de-79dcfd9e8cd0)
+
 #### Insights:
 - **Total Inventory**: The current inventory is **339.74K**, with **91.11% being safe products** and **8.89% classified as unsafe products**.
 - **Unsafe Products**: There are **95 unsafe products** that require attention to improve quality.
@@ -113,7 +114,9 @@ Brainstorming
 
 *c. Optimize Safe Stocked Products:*
 - Redistribute overstocked products (e.g., BB Ball Bearing) to regions or units with higher demand.
-### Manufacturing Quality Analysis
+### View 3: Manufacturing Quality analysis
+![Image](https://github.com/user-attachments/assets/36277d00-1fbd-49d6-b7bd-715075696a07)
+
 #### Insights:
 - **Total Scrapped Quantity**: A total of **10.65K products** were scrapped, with **8.87% rejected** due to quality issues.
 - **Scrap Trend Over Time**: The number of scrapped products peaked in 2013 (2.2K) and then declined in 2014.
@@ -128,8 +131,3 @@ Brainstorming
 *b. Improve Rejection Rate:*
 - Conduct quality checks at critical production stages to detect errors earlier.
 - Increase automation in the production process to reduce human-related errors.
-### Overall Recommendations
-- **Optimize Supply Chain:** Combine actual inventory data with demand trend forecasts to reduce costs and improve service levels.
-- **Implement Automation Technology:** Invest in automated production systems to minimize production times and reduce errors related to manual.
-- **Allocate Resources Effectively:** Increase resources for high-profit and high-demand categories like **Handlebars** and **Wheels**.
-- **Enhance Quality Control Processes:** Strengthen inspection steps prone to errors, such as **paint processes** and **dimension accuracy**, to improve the order acceptance rate.
